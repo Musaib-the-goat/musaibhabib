@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <style>
+
+      .title{
+        
+        background-color: rgb(48, 48, 48);
+        padding: 100px 100px 100px 100px;
+        border: none;
+        border-radius: 35px;
+        margin-bottom: 100px;
+      
+      }
+
+      .name{
+        font-size: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        
+      }
+
+      body{
+        background-color: rgb(19, 19, 19);
+        height: 2000px;
+      }
+
+      .intro{
+        padding: 25px 25px 25px 25px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(48, 48, 48);
+        border-radius: 30px;
+        width: 410px;
+        position: absolute;
+        left: 720px;
+      }
+
+      .introduction{
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        width: 400px;
+        text-align: center;
+      }
+
+      p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .description{
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr ;
+        position: absolute;
+        top: 1000px;
+        align-items: center;
+      }
+
+      .first{
+        width: 410px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(48, 48, 48);
+        border-radius: 25px;
+        padding: 20px 20px 20px 20px;
+        margin-right: 40px;
+        height: 200px;
+        margin-left: 50px;
+      }
+      .vid{
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        width: 400px;
+        text-align: center;
+      }
+
+      .second{
+        width: 410px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(48, 48, 48);
+        border-radius: 25px;
+        padding: 20px 20px 20px 20px;
+        margin-right: 140px;
+        margin-left: 140px;
+        height: 200px;
+      }
+
+      .graph{
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        width: 400px;
+        text-align: center;
+      }
+
+      .code{
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        width: 400px;
+        text-align: center;
+      }
+
+      .third{
+        width: 410px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(48, 48, 48);
+        border-radius: 25px;
+        padding: 20px 20px 20px 20px;
+        margin: 100px 100px 100px 100px;
+        margin-left: 40px;
+        height: 200px;
+      }
+
+      span{
+        font-weight: 900;
+        color: rgb(180, 180, 180);
+      }
+
+      .link{
+        color: white;
+        transition: color 0.5s;
+      }
+
+      .link:hover{
+        color: rgb(152, 240, 255);
+      }
+
+      p:hover{
+        color: rgb(201, 201, 201);
+      }
+
+      p{
+        transition: color 0.5s;
+      }
+
+      .img{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        position: absolute;
+        top: 1500px;
+      }
+
+      .photo1{
+        height: 300px;
+        border: none;
+        border-radius: 10px;
+      }
+
+      .photo2{
+        height: 300px;
+        border-radius: 10px;
+        margin-left: 15px;
+      }
+
+      .photo3{
+        height: 300px;
+        border-radius: 10px;
+        margin-right: 2px;
+        margin-left: 95px;
+      }
+
+      .img1{
+        background-color: rgb(48, 48, 48);
+        display: inline-block;
+        padding: 5px 5px 5px 5px;
+        position: absolute;
+        top: 1600px;
+        left: 450px;
+        opacity: 0;
+        transition: opacity 0.5s;
+      }
+
+      .img3{
+        background-color: rgb(48, 48, 48);
+        display: inline-block;
+        padding: 5px 5px 5px 5px;
+        position: absolute;
+        top: 1600px;
+        left: 1150px;
+        opacity: 0;
+        transition: opacity 0.5s;
+      }
+
+      .img2{
+        background-color: rgb(48, 48, 48);
+        display: inline-block;
+        padding: 5px 5px 5px 5px;
+        position: absolute;
+        top: 1600px;
+        left: 1750px;
+        opacity: 0;
+        transition: opacity 0.5s;
+      }
+
+      .img3:hover{
+        opacity: 1;
+      }
+
+      .img2:hover{
+        opacity: 1;
+      }
+
+      .img1:hover{
+        opacity: 1;
+      }
+
+      .pfp{
+        height: 80px;
+        width: 80px;
+        border-radius: 40px;
+        position: absolute;
+        top: 35px;
+        left: 35px;
+      }
+
+      .yo:hover{
+        opacity: 0.3px;
+      }
+
+
+    </style>
+
+  </head>
+
+  <body>
+    
+    <div>
+      
+      <div class="title">
+        
+        <p class="name">
+          Syed Musaib Habib
+        </p>
+
+        <a class="yo" href="https://www.facebook.com/profile.php?id=61568446172393"><img src="thumbnails/468280941_122109026564614872_2313644022102475724_n.jpg" class="pfp"></a>
+      </div>
+      
+      <div class="intro">
+        <p class="introduction">
+          Welcome! I'm Musaib, a versatile creative and tech enthusiast with expertise in writing, programming, video editing, 
+          and graphic designing. I thrive on transforming ideas into impactful content and solutions, whether it's through 
+          crafting compelling stories, designing eye-catching visuals, coding innovative projects, or producing engaging videos.
+        </p>
+      </div>
+
+        <div class="description">
+          <div class="first">
+            <p class="vid">
+              <span>Video Editing.</span>
+              I am quite experienced in video editing, having manged my youtube channel 
+              for around 2 years. I am familiar with using popular editing softwares like CapCut and Inshot.
+              To see my video editing projects, click <a class="link" href="https://www.youtube.com/@leftwing_7">here</a>
+            </p>
+          </div>
+
+          <div class="second">
+            <p class="code">
+              <span>Programming.</span>
+              I am very skilled in programming, having a vast knowledge regarding HTML and CSS. Currently,
+              I am learning Java Script. This very website is built by me using HTML and CSS.
+            </p>
+          </div>
+
+          <div class="third">
+            <p class="graph">
+              <span>Graphics Designing.</span>
+              I may called an expert in case of Graphics Designing, since I have been designing the thumbnails 
+              of my youtube channel for more than 2 years. Below is some of my photo editing examples.
+            </p>
+          </div>
+        </div>
+        <div class="img">
+          <div>
+            <img src="thumbnails/IMG_4158.jpeg" class="photo1">
+          </div>
+          <div>
+            <img src="thumbnails/IMG_4156.jpeg" class="photo2">
+          </div>
+          <div>
+            <img src="thumbnails/IMG_4151.jpeg" class="photo3">
+          </div>
+        </div>
+
+        <div>
+          <p class="img1">
+            Color Adjustments
+          </p>
+          <p class="img2">
+            Image Adjustments
+          </p>
+          <p class="img3">
+            Thumbnail Editing
+          </p>
+        </div>
+
+
+
+    </div>
+
+  </body>
+</html>
